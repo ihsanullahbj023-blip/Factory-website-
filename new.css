@@ -1,0 +1,238 @@
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.selectc{
+    height: 35px;
+    background-color: #ebe9e1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px ;
+    border: none;
+}
+.search-icon{
+    height: 35px;
+    width: 340px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+    border: none;
+}
+
+ ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px;
+    /* margin: 20px 0; */
+    background-color: #250c80;
+    text-align: center;
+    /* border-bottom: none; */
+}
+#home h1{
+    color: rgb(252, 249, 65);
+    font-size: 40px;
+}
+
+#div1{
+    background-image: url( 123.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    border-top: none;
+
+}
+
+#man{
+ display: flex;
+ height: 65vh;
+ width: 100vw;
+ background-color: rgb(218, 213, 213);
+ box-shadow: 4px 4px 6px blue;
+
+}
+#div2{
+    background-image: url(bb.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 23vw;
+    margin: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+#div2:hover{
+    box-shadow: 8px 8px 12px rgb(40, 20, 216);
+}
+
+#div2 img{
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 2px solid red;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+
+}
+#div3{
+    background-image: url(cc.jpg);
+    background-position: 0ch;
+    background-size: cover;
+    height: 60vh;
+    width: 23vw;
+    margin: 10px;
+    border: 2px solid white;
+ 
+}
+#div3:hover{
+    box-shadow: 8px 8px 12px rgb(221, 218, 51);
+}
+#div4{
+    background-image: url(ee.jpg);
+    background-position: 0ch;
+    background-size: cover;
+    height: 60vh;
+    width: 23vw;
+    margin: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+ 
+}
+#div4:hover{
+    box-shadow: 8px 8px 12px rgb(196, 59, 25);
+}
+#div5{
+    background-image: url(d.png);
+    background-position: 0ch;
+    background-size: cover;
+    height: 60vh;
+    width: 23vw;
+    margin: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+ 
+}
+#div5:hover{
+    box-shadow: 8px 8px 12px rgb(224, 42, 194);
+}
+#man2{
+     display: flex;
+     height: 65vh;
+     width: 100vw;
+     background-color: rgb(218, 213, 213);
+        
+    }
+    #div22{
+        background-image: url(a.png);
+        background-position: 0ch;
+        background-size: cover;
+        height: 60vh;
+        width: 23vw;
+        margin: 10px;
+        margin-left: 10px;
+        border: 2px solid white;
+    }
+    #div22:hover{
+        box-shadow: 8px 8px 12px rgb(48, 197, 48);
+    }
+    #div33{
+        background-image: url(b.png);
+        background-position: 0ch;
+        background-size: cover;
+        border: 2px solid white;
+        height: 60vh;
+        width: 23vw;
+        margin: 10px;
+        border: 2px solid white;
+     
+    }
+    #div33:hover{
+        box-shadow: 8px 8px 12px rgb(40, 20, 216);
+    }
+    #div44{
+        background-image: url(h.png);
+        background-position: 0ch;
+        background-size: cover;
+        height: 60vh;
+        width: 23vw;
+        margin: 10px;
+        margin-right: 10px;
+        border: 2px solid white;
+     
+    }
+    #div44:hover{
+        box-shadow: 8px 8px 12px rgb(40, 20, 216);
+    }
+    #div55{
+        background-image: url(f.png);
+        background-position: 0ch;
+        background-size: cover;
+        height: 60vh;
+        width: 23vw;
+        margin: 10px;
+        margin-right: 10px;
+        border: 2px solid white;
+     
+    }
+    #div55:hover{
+        box-shadow: 8px 8px 12px rgb(40, 20, 216);
+    }
+    #backupdiv{
+        height: 50px;
+        width: 100%;
+        background-color: #333;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+       
+      
+    }
+    #backupdiv a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+            
+    }
+    #footerdiv{
+        height: 230px;
+        width: 101.3%;
+        background-color: #1a1a1b;
+    }
+    #footerdiv h3{
+        color: white;
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px
+    }
